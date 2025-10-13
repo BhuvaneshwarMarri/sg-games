@@ -2,6 +2,8 @@ from .__main__ import main
 from .XOX_game import xox
 from .pingpong_game import ping_pong
 from .snake_game import snake_game
+from .flappy_bird import flappy_bird
+from .brickbreaker_game import brick_breaker
 
 try:
     import tkinter

@@ -84,7 +84,8 @@ options:
 
 - Launch Snake
 ```bash
-    sg-games --snake
+    from sg_games import snake
+    snake_game()
 ```
 
 ### Contributing
