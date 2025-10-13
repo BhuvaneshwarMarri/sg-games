@@ -1,0 +1,1 @@
+"""Test suite for sg_games package"""
