@@ -64,7 +64,8 @@ Run the games from your terminal using the following flags:
 Output:
 
 ```less
-usage: sg-games [-h] [--brick_breaker] [--flappy_bird] [--ping_pong] [--snake] [--xox]
+usage: sg-games [-h] [--brick_breaker] [--flappy_bird] [--ping_pong] [--snake] [--xox] [--peg_game]
+                [--click_a_dot]
 
 SG Games Collection
 
@@ -75,6 +76,8 @@ options:
   --ping_pong      Launch Ping Pong game
   --snake          Launch Snake game
   --xox            Launch TicTacToe
+  --peg_game       Launch PegSolitaire
+  --click_a_dot    Launch ClickADot
 ```
 
 ### Examples
