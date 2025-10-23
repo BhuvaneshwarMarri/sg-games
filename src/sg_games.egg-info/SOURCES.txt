@@ -6,7 +6,9 @@ src/sg_games/XOX_game.py
 src/sg_games/__init__.py
 src/sg_games/__main__.py
 src/sg_games/brickbreaker_game.py
+src/sg_games/click_a_dot.py
 src/sg_games/flappy_bird.py
+src/sg_games/peg_game.py
 src/sg_games/pingpong_game.py
 src/sg_games/snake_game.py
 src/sg_games.egg-info/PKG-INFO

@@ -1,9 +1,22 @@
-from .__main__ import main
-from .XOX_game import xox
-from .pingpong_game import ping_pong
-from .snake_game import snake_game
-from .flappy_bird import flappy_bird
-from .brickbreaker_game import brick_breaker
+"""
+SG Games Package
+
+This package contains multiple retro-style games
+that can be launched via CLI or imported individually.
+"""
+
+__version__ = "0.1.5"
+__author__ = "Marri Bhuvaneshwar"
+
+# Optional: import submodules for easier access
+from . import brickbreaker_game
+from . import flappy_bird
+from . import pingpong_game
+from . import snake_game
+from . import XOX_game
+
+__all__ = ["brickbreaker_game","flappy_bird","pingpong_game","snake_game","XOX_game","click_a_dot","peg_game"]
+
 
 try:
     import tkinter

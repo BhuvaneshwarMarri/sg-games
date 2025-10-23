@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: sg-games
-Version: 0.1.2
+Version: 0.1.5
 Summary: A small games package
 Home-page: https://github.com/BHuvaneshwarMarri/sg_games
 Author: Marri Bhuvaneshwar
@@ -28,6 +28,8 @@ SG Games Collection is a Python package that provides a set of classic games imp
 - Ping Pong
 - Snake
 - TicTacToe
+- ClickABall
+- PegSolitare
 
 Run each game from the terminal using convenient command-line flags.
 
@@ -103,7 +105,8 @@ options:
 
 - Launch Snake
 ```bash
-    sg-games --snake
+    from sg_games import snake
+    snake_game()
 ```
 
 ### Contributing

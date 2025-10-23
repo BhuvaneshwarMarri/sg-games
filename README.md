@@ -9,6 +9,8 @@ SG Games Collection is a Python package that provides a set of classic games imp
 - Ping Pong
 - Snake
 - TicTacToe
+- ClickABall
+- PegSolitare
 
 Run each game from the terminal using convenient command-line flags.
 
